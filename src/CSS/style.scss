@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Poppins", sans-serif;
+}
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  height: 100px;
+  background: #000000;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(228, 117, 13);
+  height: 450px;
+  border-radius: 2px;
+}
+body {
+  background: #FFEFBA;
+  background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  
+  background: linear-gradient(to right, #FFFFFF, #FFEFBA); 
+}
+.header {
+    background-color: rgb(228, 117, 13);
+}
+.btn-top {
+  margin-top:120px;
+}
+.btn-top button {
+  margin-left: 10px;
+}
+.session-characters {
+    padding-top: 20px;
+    padding-left: 7vmax;
+}
+.session-characters .main-session {
+    margin-bottom: 25px;
+}
+.session-characters .btn-session {
+  color: #ffffff;
+  outline: none;
+  background-color: rgb(231, 195, 35);
+  cursor: default;
+}
+.session-about .img-about {
+  height: 350px;
+  width: 360px;
+  object-fit: cover;
+}
+.loading {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  @keyframes ldio-0a5r05xojpzw {
+  0% { transform: translate(-50%,-50%) rotate(0deg); }
+  100% { transform: translate(-50%,-50%) rotate(360deg); }
+}
+.ldio-0a5r05xojpzw div {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  border: 20px solid rgb(238, 120, 9);
+  border-top-color: transparent;
+  border-radius: 50%;
+}
+.ldio-0a5r05xojpzw div {
+  animation: ldio-0a5r05xojpzw 1s linear infinite;
+  top: 100px;
+  left: 100px
+}
+.loadingio-spinner-rolling-dxgsxhph08u {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  overflow: hidden;
+}
+.ldio-0a5r05xojpzw {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0;
+}
+.ldio-0a5r05xojpzw div { 
+  box-sizing: content-box; 
+}
+.session-footer  {
+  background-color: rgba(218, 111, 12, 0.897);
+}
+.session-footer li a {
+  color: #FFFFFF;
+}
+.session-footer p {
+  cursor: default;
+  color: #FFFFFF;
+  transition: 0.2s;
+}
+.session-footer li a:hover {
+  color: #ebe6a5; 
+}
+@media screen and(max-width:768px){
+  
+  ::-webkit-scrollbar-track {
+    display: none;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  ::-webkit-scrollbar-thumb {
+    display: none;
+  }
+  .session-about .img-about {
+    height: 350px;
+    width: 450px;
+  }
+}
