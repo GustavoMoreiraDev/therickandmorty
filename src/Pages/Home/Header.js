@@ -1,9 +1,11 @@
+import { Link } from 'react-router-dom';
+
 const Header = () => {
     return (
         <header>
             <nav className="navbar navbar-expand-md navbar-dark fixed-top header">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#">Rick And Morty</a>
+                    <a className="navbar-brand" href="/">Rick And Morty</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -11,13 +13,13 @@ const Header = () => {
                         
                         <ul className="navbar-nav me-auto mb-2 mb-md-0"> 
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">Inicio</a>
+                                <Link className="nav-link active" aria-current="page" to='Inicio'>Inicio</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#about">Sobre</a>
+                                <Link className="nav-link" to='Sobre'>Sobre</Link>
                             </li>
                             <li className="nav-item">
-                            <a className="nav-link" href="#contact">Contato</a>
+                            <Link className="nav-link" to="Episodios">Episodios</Link>
                             </li>
                         </ul>
 

@@ -13,10 +13,10 @@ const Footer = () => {
             </a>
 
             <ul class="nav col-md-4 justify-content-end">
-                <li className="nav-item"><a href="#" className="nav-link px-2">< FaHome /></a></li>
-                <li className="nav-item"><a href="https://www.instagram.com/gust4_s4ntos/" target="_blank" className="nav-link px-2"><FaInstagram/></a></li>
-                <li className="nav-item"><a href="https://github.com/GustavoMoreiraDev" target="_blank" className="nav-link px-2"><FaGithub /></a></li>
-                <li className="nav-item"><a href="https://www.facebook.com/gustavo.moreiramoreira.33633/" target="_blank" className="nav-link px-2"><FaFacebookF/></a></li>
+                <li className="nav-item"><a href="/" className="nav-link px-2">< FaHome /></a></li>
+                <li className="nav-item"><a href="https://www.instagram.com/gust4_s4ntos/" target="_blank" rel="noreferrer" className="nav-link px-2"><FaInstagram/></a></li>
+                <li className="nav-item"><a href="https://github.com/GustavoMoreiraDev" target="_blank" rel="noreferrer" className="nav-link px-2"><FaGithub /></a></li>
+                <li className="nav-item"><a href="https://www.facebook.com/gustavo.moreiramoreira.33633/" target="_blank" rel="noreferrer" className="nav-link px-2"><FaFacebookF/></a></li>
             </ul>
                 
         </footer>
