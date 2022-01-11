@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EAE/B,AAAA,MAAM,CAAC;IACH,MAAM,EAAE,KAAK;GAChB",
-    "sources": [
-        "playerVideo.scss"
-    ],
-    "names": [],
-    "file": "playerVideo.css"
-}

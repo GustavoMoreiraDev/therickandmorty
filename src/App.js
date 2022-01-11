@@ -2,7 +2,7 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 
 import SessionAbout from './Pages/Sobre/SessionAbout';
-import Episodios from './Pages/Contato/SearchCharacters/SearchCharacters';
+import Episodios from './Pages/Episodios/SearchCharacters/SearchCharacters';
 
 import Header from './Pages/Home/Header';
 import Footer from './Pages/Home/Footer';
